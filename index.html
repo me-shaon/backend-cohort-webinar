@@ -111,15 +111,15 @@
       <span class="kicker reveal"><span class="dot"></span> A short history</span>
       <h2 class="reveal">The job title kept splitting.<br>Now it's folding back.</h2>
     </div>
-    <div class="eras-track reveal">
-      <div class="era">
+    <div class="eras-track">
+      <div class="era step">
         <span class="era-year">1970s — 1990s</span>
         <div class="era-node"></div>
         <h3 class="era-title">Programmer</h3>
         <p class="era-desc">One title. One person. You wrote the UI, the logic, the database, and carried the tape to the machine.</p>
         <div class="era-chips"><span class="era-chip solo">Programmer</span></div>
       </div>
-      <div class="era">
+      <div class="era step">
         <span class="era-year">2000s — 2010s</span>
         <div class="era-node"></div>
         <h3 class="era-title">Specialists</h3>
@@ -130,7 +130,7 @@
           <span class="era-chip">Data</span><span class="era-chip">SRE</span>
         </div>
       </div>
-      <div class="era is-now">
+      <div class="era is-now step">
         <span class="era-year">2020s — now</span>
         <div class="era-node"></div>
         <h3 class="era-title">Generalists, again</h3>
@@ -138,7 +138,7 @@
         <div class="era-chips"><span class="era-chip solo now">Product Engineer</span></div>
       </div>
     </div>
-    <p class="eras-foot reveal">Depth didn't win. Then breadth didn't. The pendulum moves with whatever the bottleneck is.</p>
+    <p class="eras-foot step">Depth didn't win. Then breadth didn't. The pendulum moves with whatever the bottleneck is.</p>
     <div class="slide-number">06</div>
   </section>
 
@@ -150,21 +150,21 @@
       <span class="kicker reveal"><span class="dot"></span> The real change</span>
       <h2 class="reveal">The walls between roles are coming down.</h2>
     </div>
-    <div class="roles-flow reveal">
-      <div class="roles-col">
+    <div class="roles-flow">
+      <div class="roles-col step">
         <span class="col-label">Yesterday</span>
         <div class="role-tag">Front-end Dev</div>
         <div class="role-tag">Back-end Dev</div>
         <div class="role-tag">DevOps</div>
         <div class="role-tag dim">QA Engineer</div>
       </div>
-      <div class="roles-arrow">
+      <div class="roles-arrow step" data-step="today">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <line x1="5" y1="12" x2="19" y2="12"/>
           <polyline points="12 5 19 12 12 19"/>
         </svg>
       </div>
-      <div class="roles-col">
+      <div class="roles-col step" data-step="today">
         <span class="col-label">Today</span>
         <div class="role-merged">
           <div class="rm-title">Product Engineer</div>
@@ -184,16 +184,16 @@
     <p class="arch-sub reveal">
       Roles won't collapse into one and stay there. They'll split again — just along different lines. Not by layer of the stack, but by <strong>what stage of the work you're best at</strong>.
     </p>
-    <div class="arch-beats reveal">
-      <div class="beat">
+    <div class="arch-beats">
+      <div class="beat step">
         <span class="beat-num">Then</span>
         <p>One person did everything, because the systems were small enough to hold in one head.</p>
       </div>
-      <div class="beat">
+      <div class="beat step">
         <span class="beat-num">Later</span>
         <p>Systems outgrew us, so we split by layer — front-end, back-end, ops, data.</p>
       </div>
-      <div class="beat">
+      <div class="beat step">
         <span class="beat-num">Next</span>
         <p>Agents absorb the layers. What's left to divide is taste, judgment, and stage of work.</p>
       </div>
@@ -263,17 +263,17 @@
       </p>
     </div>
     <div class="shift-list">
-      <div class="shift-row accent reveal">
+      <div class="shift-row accent step">
         <span class="s-when">When access is infinite</span>
         <span class="s-arrow">&rarr;</span>
         <span class="s-result">value shifts to the <span class="keyword">filter</span></span>
       </div>
-      <div class="shift-row sage reveal">
+      <div class="shift-row sage step">
         <span class="s-when">When noise is ubiquitous</span>
         <span class="s-arrow">&rarr;</span>
         <span class="s-result">value shifts to the <span class="keyword">signal</span></span>
       </div>
-      <div class="shift-row accent reveal">
+      <div class="shift-row accent step">
         <span class="s-when">When creation is cheap</span>
         <span class="s-arrow">&rarr;</span>
         <span class="s-result">value shifts to <span class="keyword">curation</span></span>
@@ -316,17 +316,17 @@
       </p>
     </div>
     <div class="bridge-row">
-      <div class="bridge-card accent reveal">
+      <div class="bridge-card accent step">
         <span class="b-num">01</span>
         <h3>Learn the fundamentals</h3>
         <p>HTTP, databases, caching, concurrency. AI generates code — it doesn't replace understanding what happens underneath.</p>
       </div>
-      <div class="bridge-card sage reveal">
+      <div class="bridge-card sage step">
         <span class="b-num">02</span>
         <h3>Sharpen your taste</h3>
         <p>AI can write the code. It can't decide if the architecture is right, or if the trade-offs make sense. That's still you.</p>
       </div>
-      <div class="bridge-card accent reveal">
+      <div class="bridge-card accent step">
         <span class="b-num">03</span>
         <h3>Own the outcome</h3>
         <p>Not just your function — the user experience, the performance, the whole product. End to end, no hand-offs.</p>
@@ -344,7 +344,7 @@
       <h2 class="reveal">The skills that matter now.</h2>
     </div>
     <div class="skills-grid">
-      <div class="skill-card accent reveal">
+      <div class="skill-card accent step">
         <div class="skill-icon accent">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
             <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
@@ -355,7 +355,7 @@
           <p>Knowing what good code, architecture, and UX look like — and demanding it.</p>
         </div>
       </div>
-      <div class="skill-card sage reveal">
+      <div class="skill-card sage step">
         <div class="skill-icon sage">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
             <line x1="12" y1="3" x2="12" y2="21"/>
@@ -369,7 +369,7 @@
           <p>Choosing the right tool, pattern, or trade-off — when there's no obvious answer.</p>
         </div>
       </div>
-      <div class="skill-card sage reveal">
+      <div class="skill-card sage step">
         <div class="skill-icon sage">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
             <circle cx="12" cy="5" r="2.5"/>
@@ -385,7 +385,7 @@
           <p>Seeing how the pieces connect — front-end, back-end, infrastructure, users.</p>
         </div>
       </div>
-      <div class="skill-card accent reveal">
+      <div class="skill-card accent step">
         <div class="skill-icon accent">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
             <path d="M4 22V4"/>
@@ -511,15 +511,15 @@
     </h2>
     <p class="answer-sub reveal">It's about three things:</p>
     <div class="answer-list">
-      <div class="answer-row reveal">
+      <div class="answer-row step">
         <span class="answer-kw">What</span>
         <span class="answer-desc">to build — <strong>not what they asked for, what they actually need.</strong></span>
       </div>
-      <div class="answer-row reveal">
+      <div class="answer-row step">
         <span class="answer-kw">Why</span>
         <span class="answer-desc">it matters — <strong>the reasoning behind every decision.</strong></span>
       </div>
-      <div class="answer-row reveal">
+      <div class="answer-row step">
         <span class="answer-kw">How</span>
         <span class="answer-desc">to make it survive — <strong>real users, real scale, real failure.</strong></span>
       </div>
@@ -535,8 +535,8 @@
       <span class="kicker reveal"><span class="dot"></span> The real value</span>
       <h2 class="reveal">Anyone can build an MVP. <span class="accent-word">Production</span> is a different game.</h2>
     </div>
-    <div class="contrast-flow reveal">
-      <div class="c-mvp">
+    <div class="contrast-flow">
+      <div class="c-mvp step">
         <span class="c-label">For one user</span>
         <div class="c-title">Anyone can ship this.</div>
         <ul class="c-items">
@@ -546,10 +546,10 @@
           <li>AI can build it in an hour</li>
         </ul>
       </div>
-      <div class="c-arrow">
+      <div class="c-arrow step" data-step="prod">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
       </div>
-      <div class="c-prod">
+      <div class="c-prod step" data-step="prod">
         <span class="c-label">For thousands of users</span>
         <div class="c-title">Now you need systems thinking.</div>
         <ul class="c-items">
@@ -561,7 +561,7 @@
         </ul>
       </div>
     </div>
-    <p class="contrast-punch reveal">
+    <p class="contrast-punch step">
       None of that comes from a prompt. It comes from <strong>understanding how systems work.</strong>
     </p>
     <div class="slide-number">20</div>
@@ -580,24 +580,24 @@
       You don&rsquo;t just start coding. <strong>You ask:</strong>
     </p>
     <div class="sc-questions">
-      <div class="sc-q reveal">
+      <div class="sc-q step">
         <span class="sc-mark">?</span>
         <span class="sc-text">Do we need true real-time, or is near-real-time good enough?</span>
       </div>
-      <div class="sc-q reveal">
+      <div class="sc-q step">
         <span class="sc-mark">?</span>
         <span class="sc-text">What happens when 10,000 users message at the same time?</span>
       </div>
-      <div class="sc-q reveal">
+      <div class="sc-q step">
         <span class="sc-mark">?</span>
         <span class="sc-text">Where does the data live, and who owns it?</span>
       </div>
-      <div class="sc-q reveal">
+      <div class="sc-q step">
         <span class="sc-mark">?</span>
         <span class="sc-text">What breaks first when traffic spikes — and how do we handle it?</span>
       </div>
     </div>
-    <p class="scenario-punch reveal">
+    <p class="scenario-punch step">
       That&rsquo;s systems thinking — <strong>the difference between something that works and something that lasts.</strong>
     </p>
     <div class="slide-number">21</div>
@@ -612,47 +612,47 @@
       <span class="kicker reveal"><span class="dot"></span> Where to start</span>
       <h2 class="reveal">The fundamentals of backend.</h2>
       <div class="comp-columns">
-        <div class="comp-col reveal">
+        <div class="comp-col step" data-step="c1">
           <span class="cc-num">01</span>
           <h3>How the Back-end Works</h3>
           <p>Request/response flow, HTTP verbs and status codes, cookies, sessions, state.</p>
         </div>
-        <div class="comp-col reveal">
+        <div class="comp-col step" data-step="c1">
           <span class="cc-num">02</span>
           <h3>The Wires Underneath</h3>
           <p>HTTP vs HTTPS and TLS, DNS resolution, SMTP and how email actually gets delivered.</p>
         </div>
-        <div class="comp-col reveal">
+        <div class="comp-col step" data-step="c1">
           <span class="cc-num">03</span>
           <h3>Auth &amp; Security</h3>
           <p>Authentication vs authorization, tokens and sessions, the security basics you can't skip.</p>
         </div>
-        <div class="comp-col reveal">
+        <div class="comp-col step" data-step="c2">
           <span class="cc-num">04</span>
           <h3>APIs &amp; App Structure</h3>
           <p>REST design, monoliths and where they break, contracts between client and server.</p>
         </div>
-        <div class="comp-col reveal">
+        <div class="comp-col step" data-step="c2">
           <span class="cc-num">05</span>
           <h3>Databases</h3>
           <p>Relational vs NoSQL, modeling, queries, indexes — where your data actually lives.</p>
         </div>
-        <div class="comp-col reveal">
+        <div class="comp-col step" data-step="c2">
           <span class="cc-num">06</span>
           <h3>Caching</h3>
           <p>What to cache and where, TTLs, invalidation — the cheapest performance you'll ever buy.</p>
         </div>
-        <div class="comp-col reveal">
+        <div class="comp-col step" data-step="c3">
           <span class="cc-num">07</span>
           <h3>Real-time</h3>
           <p>Server-sent events and WebSockets — when the server needs to talk first.</p>
         </div>
-        <div class="comp-col reveal">
+        <div class="comp-col step" data-step="c3">
           <span class="cc-num">08</span>
           <h3>Queues &amp; Workers</h3>
           <p>Background jobs, retries, doing slow work off the request path.</p>
         </div>
-        <div class="comp-col reveal">
+        <div class="comp-col step" data-step="c3">
           <span class="cc-num">09</span>
           <h3>Ship &amp; Operate</h3>
           <p>CI/CD, logging, error tracking, performance monitoring — knowing it broke before users tell you.</p>
@@ -671,13 +671,13 @@
       <h2 class="reveal">Backend roadmaps, ready to go.</h2>
     </div>
     <div class="roadmaps-grid">
-      <a class="roadmap-card reveal" href="https://roadmap.sh/backend" target="_blank" rel="noopener">
+      <a class="roadmap-card step" href="https://roadmap.sh/backend" target="_blank" rel="noopener">
         <span class="rc-label">Community Roadmap</span>
         <h3>roadmap.sh/backend</h3>
         <p>The community-driven backend roadmap. Free, comprehensive, and visual &mdash; covers everything from internet basics to advanced architecture.</p>
         <span class="rc-link">roadmap.sh/backend &rarr;</span>
       </a>
-      <a class="roadmap-card sage-bg reveal" href="https://www.alexhyett.com/roadmaps/backend-developer-roadmap/" target="_blank" rel="noopener">
+      <a class="roadmap-card sage-bg step" href="https://www.alexhyett.com/roadmaps/backend-developer-roadmap/" target="_blank" rel="noopener">
         <span class="rc-label">Opinionated Guide</span>
         <h3>Alex Hyett&rsquo;s Roadmap</h3>
         <p>A detailed, opinionated backend developer roadmap with explanations, resources, and a clear learning path from zero to hireable.</p>
@@ -706,19 +706,19 @@
       <h2 class="reveal">Learning stalls for predictable reasons.</h2>
     </div>
     <div class="stuck-list">
-      <div class="stuck-row accent reveal">
+      <div class="stuck-row accent step">
         <span class="sr-label">No accountability</span>
         <span class="sr-desc">Nobody&rsquo;s tracking your progress. It&rsquo;s easy to drift.</span>
       </div>
-      <div class="stuck-row sage reveal">
+      <div class="stuck-row sage step">
         <span class="sr-label">No mentorship</span>
         <span class="sr-desc">You get stuck on a concept and there&rsquo;s nobody to unblock you.</span>
       </div>
-      <div class="stuck-row accent reveal">
+      <div class="stuck-row accent step">
         <span class="sr-label">No inner push</span>
         <span class="sr-desc">Comfort beats curiosity. The status quo wins.</span>
       </div>
-      <div class="stuck-row sage reveal">
+      <div class="stuck-row sage step">
         <span class="sr-label">No clear why</span>
         <span class="sr-desc">You don&rsquo;t see the necessity, so the motivation fades.</span>
       </div>
@@ -735,7 +735,7 @@
       <h2 class="reveal">You don&rsquo;t need permission.<br>You need a <span class="hl">plan</span> and a <span class="hl">partner</span>.</h2>
     </div>
     <div class="sp-cards">
-      <div class="sp-card reveal">
+      <div class="sp-card step">
         <span class="sp-num">01</span>
         <h3>Write your own plan &mdash; today</h3>
         <p>Pick one roadmap and cut it into eight weeks. Two topics a week, and one small thing you actually build with each. Put it in your calendar like a meeting you can&rsquo;t move.</p>
@@ -745,7 +745,7 @@
           <li>Something shipped every week &mdash; however ugly</li>
         </ul>
       </div>
-      <div class="sp-card sage reveal">
+      <div class="sp-card sage step">
         <span class="sp-num">02</span>
         <h3>Don&rsquo;t learn alone</h3>
         <p>Pair with one friend, or pull three or four colleagues into a group. Same plan, same week, a standing check-in. You show up because someone notices when you don&rsquo;t.</p>
@@ -756,7 +756,7 @@
         </ul>
       </div>
     </div>
-    <p class="sp-foot reveal">A plan kills the drift. A partner kills the excuse. That&rsquo;s two of the four reasons gone.</p>
+    <p class="sp-foot step">A plan kills the drift. A partner kills the excuse. That&rsquo;s two of the four reasons gone.</p>
     <div class="slide-number">26</div>
   </section>
 
@@ -821,19 +821,19 @@
       </ol>
 
       <div class="ol-notes">
-        <div class="ol-note reveal">
+        <div class="ol-note step">
           <h3>A Q&amp;A class for every topic</h3>
           <p>Each topic gets a dedicated follow-up session. You come back with your confusion, we clear it before moving on.</p>
         </div>
-        <div class="ol-note sage reveal">
+        <div class="ol-note sage step">
           <h3>You build a real product</h3>
           <p>Not toy exercises. You ship something real through the ten weeks, with my guidance and review along the way.</p>
         </div>
-        <div class="ol-note reveal">
+        <div class="ol-note step">
           <h3>Two bonus classes at the end</h3>
           <p>AI-assisted development and AI engineering guidelines &mdash; how to actually work alongside agents once the fundamentals are yours.</p>
         </div>
-        <div class="ol-note sage reveal">
+        <div class="ol-note sage step">
           <h3>A private Discord channel</h3>
           <p>A dedicated channel for the cohort &mdash; ask between classes, and I drop useful resources there regularly.</p>
         </div>
@@ -853,19 +853,19 @@
     </div>
 
     <div class="bonus-grid">
-      <a class="bonus-card reveal" href="https://megamindslearning.net/courses/think-like-a-senior-engineer" target="_blank" rel="noopener">
+      <a class="bonus-card step" href="https://megamindslearning.net/courses/think-like-a-senior-engineer" target="_blank" rel="noopener">
         <div class="bc-shot"><img src="images/think-like-a-senior-engineer-featured.jpg" alt="Think Like a Senior Engineer"></div>
         <span class="bc-badge">Available now</span>
         <h3>Think Like a Senior Engineer</h3>
         <span class="bc-link">megamindslearning.net &rarr;</span>
       </a>
-      <a class="bonus-card reveal" href="https://megamindslearning.net/courses/ai-fundamentals-for-software-developers" target="_blank" rel="noopener">
+      <a class="bonus-card step" href="https://megamindslearning.net/courses/ai-fundamentals-for-software-developers" target="_blank" rel="noopener">
         <div class="bc-shot"><img src="images/AI-fundamentals-for-software-developers-featured.jpg" alt="AI Fundamentals for Software Developers"></div>
         <span class="bc-badge">Available now</span>
         <h3>AI Fundamentals for Software Developers</h3>
         <span class="bc-link">megamindslearning.net &rarr;</span>
       </a>
-      <div class="bonus-card is-upcoming reveal">
+      <div class="bonus-card is-upcoming step">
         <div class="bc-shot"><img src="images/Software-engineering-fundamentals-featured.jpg" alt="Software Engineering Fundamentals"></div>
         <span class="bc-badge upcoming">Coming soon</span>
         <h3>Software Engineering Fundamentals</h3>
@@ -884,7 +884,7 @@
       <h2 class="reveal">One requirement:<br>you already <span class="hl">write code</span>.</h2>
     </div>
     <div class="pr-cards">
-      <div class="pr-card reveal">
+      <div class="pr-card step">
         <span class="pr-tag yes">What you need</span>
         <h3>Comfort in one language &mdash; any one</h3>
         <p>JavaScript, PHP, Python, Java, Go, C#, Dart &mdash; it genuinely doesn&rsquo;t matter which. If you can read and write code in one of them, you&rsquo;re ready.</p>
@@ -893,7 +893,7 @@
           <span>Java</span><span>Go</span><span>&hellip;or whatever you use</span>
         </div>
       </div>
-      <div class="pr-card no reveal">
+      <div class="pr-card no step">
         <span class="pr-tag no">What this isn&rsquo;t</span>
         <h3>I won&rsquo;t teach a language or a framework</h3>
         <p>No syntax lessons, no framework tutorials. Every concept here is language-agnostic &mdash; you&rsquo;ll apply it in whatever stack you already work in.</p>
@@ -902,68 +902,54 @@
         </div>
       </div>
     </div>
-    <p class="pr-foot reveal">The fundamentals sit underneath every language. That&rsquo;s exactly why they&rsquo;re worth your two months.</p>
+    <p class="pr-foot step">The fundamentals sit underneath every language. That&rsquo;s exactly why they&rsquo;re worth your two months.</p>
     <div class="slide-number">30</div>
   </section>
 
   <!-- ============================================
-       SLIDE — PRICING
+       SLIDE 31 — PRICING + WEBINAR-ONLY DISCOUNT
        ============================================ -->
-  <section class="slide slide--pricing">
-    <div class="pc-text">
+  <section class="slide slide--offer">
+    <div class="of-text">
       <span class="kicker reveal"><span class="dot"></span> The price</span>
-      <h2 class="pc-headline reveal">Two months, live.<br><span class="hl">&#2547;7,000</span> if you book early.</h2>
-      <p class="pc-sub reveal">
-        Regular price for the cohort is <strong>&#2547;10,000</strong>. Early bird registration is open right now at <strong>&#2547;7,000</strong> &mdash; same classes, same Q&amp;A, same bonuses.
+      <h2 class="of-headline reveal">Two months, live.<br><span class="hl">&#2547;4,000</span> if you were here today.</h2>
+      <p class="of-sub reveal">
+        The cohort sells at <strong>&#2547;10,000</strong>, and early bird is open at <strong>&#2547;7,000</strong>. But you sat through this hour with me &mdash; so there&rsquo;s a code below that only this room gets.
       </p>
-    </div>
-    <div class="pc-cards reveal">
-      <div class="pc-card">
-        <span class="pc-label">Regular</span>
-        <span class="pc-amount">&#2547;10,000</span>
-        <span class="pc-note">Standard cohort price</span>
+      <div class="of-ladder reveal">
+        <div class="of-row">
+          <span class="of-label">Regular price</span>
+          <span class="of-val old">&#2547;10,000</span>
+        </div>
+        <div class="of-row">
+          <span class="of-label">Early bird</span>
+          <span class="of-val old">&#2547;7,000</span>
+        </div>
+        <div class="of-row is-now">
+          <span class="of-label">Webinar attendees<small>with the code &mdash; until 26 July, 11:59&nbsp;PM</small></span>
+          <span class="of-val">&#2547;4,000</span>
+        </div>
       </div>
-      <div class="pc-card is-now">
-        <span class="pc-badge">Open now</span>
-        <span class="pc-label">Early bird</span>
-        <span class="pc-amount">&#2547;7,000</span>
-        <span class="pc-note">Save &#2547;3,000 &mdash; while seats last</span>
-      </div>
-    </div>
-    <div class="slide-number">31</div>
-  </section>
-
-  <!-- ============================================
-       SLIDE 30 — HARDSHIP DISCOUNT
-       ============================================ -->
-  <section class="slide slide--perk">
-    <div class="perk-text">
-      <span class="kicker reveal"><span class="dot"></span> One more thing</span>
-      <h2 class="perk-headline reveal">If money is the blocker,<br>let&rsquo;s take it off the table.</h2>
-      <p class="perk-sub reveal">
-        Struggling financially right now, or between jobs and looking? Use the coupon below and join for half price. No forms, no proof, no awkward conversation &mdash; just use it.
-      </p>
-      <ul class="perk-who reveal">
-        <li>Currently job hunting</li>
-        <li>Financially stretched right now</li>
-        <li>Student or early in your career</li>
-      </ul>
     </div>
 
     <div class="coupon reveal">
-      <span class="coupon-off">50% off</span>
-      <span class="coupon-label">Coupon code</span>
-      <div class="coupon-code">BACKCOH50</div>
+      <span class="coupon-off">60% off</span>
+      <span class="coupon-label">Discount for only you</span>
+      <div class="coupon-code">BACKENDWEBINAR</div>
       <div class="coupon-price">
-        <span class="cp-amount">&#2547;5,000</span>
+        <span class="cp-amount">&#2547;4,000</span>
         <span class="cp-note">total, after the discount</span>
       </div>
+      <p class="coupon-deadline">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15.5 14"/></svg>
+        Valid until <strong>26 July, 11:59&nbsp;PM</strong>
+      </p>
       <a class="coupon-cta" href="https://megamindslearning.net/courses/backend-for-non-backend-developers?cohort=418" target="_blank" rel="noopener">
         Apply it at checkout
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
       </a>
     </div>
-    <div class="slide-number">32</div>
+    <div class="slide-number">31</div>
   </section>
 
   <!-- ============================================
@@ -976,30 +962,30 @@
     </div>
 
     <div class="sum-body">
-      <div class="sum-list reveal">
-        <div class="sum-row">
+      <div class="sum-list">
+        <div class="sum-row step">
           <span class="sum-what">10 weeks of live classes</span>
           <span class="sum-detail">9 topics + 2 bonus classes on AI</span>
         </div>
-        <div class="sum-row">
+        <div class="sum-row step">
           <span class="sum-what">A Q&amp;A session per topic</span>
           <span class="sum-detail">Come back with your confusion, leave without it</span>
         </div>
-        <div class="sum-row">
+        <div class="sum-row step">
           <span class="sum-what">A real product you build</span>
           <span class="sum-detail">Guided and reviewed by me, not a toy exercise</span>
         </div>
-        <div class="sum-row">
+        <div class="sum-row step">
           <span class="sum-what">Private Discord channel</span>
           <span class="sum-detail">Ask between classes; resources shared regularly</span>
         </div>
-        <div class="sum-row bonus">
+        <div class="sum-row bonus step">
           <span class="sum-what">3 Megaminds courses</span>
           <span class="sum-detail">Worth &#2547;3,500 &mdash; included free</span>
         </div>
       </div>
 
-      <div class="sum-price reveal">
+      <div class="sum-price step">
         <div class="sp-row is-plain">
           <span class="sp-label">Regular cohort price</span>
           <span class="sp-val plain">&#2547;10,000</span>
@@ -1013,16 +999,16 @@
           <span class="sp-val strike">&#2547;13,500</span>
         </div>
         <div class="sp-row is-now">
-          <span class="sp-label">Early bird &mdash; open now<small>you pay this today</small></span>
+          <span class="sp-label">Early bird<small>you pay this today</small></span>
           <span class="sp-val">&#2547;7,000</span>
         </div>
         <div class="sp-row is-coupon">
-          <span class="sp-label">With <strong>BACKCOH50</strong><small>if you&rsquo;re job hunting or financially stretched</small></span>
-          <span class="sp-val">&#2547;5,000</span>
+          <span class="sp-label">With <strong>BACKENDWEBINAR</strong><small>webinar attendees only &mdash; until 26 July, 11:59&nbsp;PM</small></span>
+          <span class="sp-val">&#2547;4,000</span>
         </div>
       </div>
     </div>
-    <div class="slide-number">33</div>
+    <div class="slide-number">32</div>
   </section>
 
   <!-- ============================================
@@ -1038,9 +1024,9 @@
     </a>
     <div class="cta-foot reveal">
       <span class="cta-url">megamindslearning.net/courses/backend-for-non-backend-developers</span>
-      <span class="cta-pill">Coupon <strong>BACKCOH50</strong> &middot; 50% off</span>
+      <span class="cta-pill">Coupon <strong>BACKENDWEBINAR</strong> &middot; 60% off &middot; until 26 July</span>
     </div>
-    <div class="slide-number">34</div>
+    <div class="slide-number">33</div>
   </section>
 
   <!-- ============================================
@@ -1053,7 +1039,7 @@
     <h2 class="q-title reveal">Questions?</h2>
     <p class="q-sub reveal">Anything from today &mdash; the fundamentals, the roadmap, the cohort, or where to start on Monday morning.</p>
     <p class="q-thanks reveal">Thank you for spending the hour with me.</p>
-    <div class="slide-number">35</div>
+    <div class="slide-number">34</div>
   </section>
 
   <!-- ============================================
@@ -1063,7 +1049,8 @@
     <button class="nav-btn nav-prev" aria-label="Previous slide">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
     </button>
-    <span class="counter">1 / 22</span>
+    <span class="counter">1 / 34</span>
+    <span class="step-dots" aria-hidden="true"></span>
     <button class="nav-btn nav-next" aria-label="Next slide">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
     </button>
